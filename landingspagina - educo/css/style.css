@@ -1,0 +1,156 @@
+body{
+    background-color: #f0f3f6;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/*HEADER AND NAV*/
+
+header{
+    background-color: #315299;
+    display: flex;
+    flex-direction: row;
+}
+
+.navigation{
+    list-style: none;
+    padding-top: 0.5em;
+}
+
+#logo{
+    width: 10%;
+}
+
+.navigation li{
+    display: inline;
+    margin: 0 2em;
+}
+
+.navigation li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navigation li .active{
+    color: #69b3db;
+}
+
+.navigation .CTA{
+    background-color: #ff8979;
+    padding: 0.5em 2em;
+    border-radius: 0.3em;
+}
+
+/*INFO ABOUT*/
+
+.slogan{
+    color: #315299;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.intro{
+    display: flex;
+    flex-direction: row;
+}
+
+.intro .text{
+    padding: 2em 15%;
+    padding-right: 10em;
+}
+
+.intro .text h2{
+    color: #315299;
+}
+
+.intro .image img{
+    width: 110%;
+    box-shadow: #3152993b -5px 5px 7px;
+    border-radius: 0.3em;
+}
+
+.intro .image{
+    padding-right: 10%;
+    padding-top: 6em;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+}
+
+.info .text{
+    padding: 2em 6em;
+}
+
+.info .text div{
+    margin-bottom: 4em;
+}
+
+.info .text h2{
+    color: #315299;
+}
+
+.info .images img{
+    width: 80%;
+    border-radius: 0.3em;
+    box-shadow: #3152993b -5px 5px 7px;
+    margin-bottom: 3em;
+}
+
+.info .images{
+    padding-left: 10%;
+    padding-top: 5em;
+}
+
+.prices{
+    background-color: #315299;
+    color: white;
+}
+
+/*COURSES*/
+
+.select{
+    text-align: center;
+}
+
+.select h1{
+    color: #315299;
+    font-size: 1.5em;
+}
+
+.filter select{
+    margin-right: 3em;
+    color: #315299;
+    font-weight: bold;
+    padding: 0.5em 0.8em;
+    border: 2px solid #315299;
+    border-radius: 0.3em;
+}
+
+.filter label{
+    color: #315299;
+    font-weight: bold;
+}
+
+.filter input{
+    color: white;
+    background: #315299;
+    border: none;
+    padding: 0.5em 1.5em;
+    font-weight: bold;
+    font-size: 1em;
+    border-radius: 0.3em;
+    cursor: pointer;
+}
+
+.courses{
+    display: flex;
+    flex-direction: row;
+}
+
+.course{
+    
+}
